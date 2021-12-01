@@ -23,8 +23,8 @@ sea_surf20=list(d.variables["mean_sea_surf_sol1_20_ku"])
 geoid=list(d.variables["geoid_01"])
 
 model=list(d.variables["mod_dry_tropo_cor_zero_altitude_01"])
-wet=list(d.variables["rad_wet_tropo_cor_01_ku"])
-wetModel=list(d.variables["mod_wet_tropo_cor_meas_altitude_01"])
+wet=list(d.variables["rad_wet_tropo_cor_01_ku"])                    # Use this as correction value
+wetModel=list(d.variables["mod_wet_tropo_cor_meas_altitude_01"])    # Use this as a backup
 
 tide1=list(d.variables["solid_earth_tide_01"])
 tide2=list(d.variables["pole_tide_01"])
